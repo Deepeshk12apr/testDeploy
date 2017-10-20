@@ -1,5 +1,5 @@
 {
-  "name": "zapyle",
+  "name": "nuxtvuetify",
   "version": "1.0.0",
   "description": "Nuxt.js + Vuetify.js project",
   "author": "",
@@ -10,13 +10,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "axios": "^0.16.2",
-    "js-cookie": "^2.1.4",
-    "jwt-decode": "^2.2.0",
-    "nuxt": "0.10.7",
+    "nuxt": "0.10.6",
     "vue-server-renderer": "latest",
-    "vuetify": "^0.13.0",
-    "vuex-persistedstate": "^2.0.0"
+    "vuetify": "^0.13.0"
   },
   "devDependencies": {
     "stylus": "^0.54.5",

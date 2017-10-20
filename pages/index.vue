@@ -20,12 +20,3 @@
     </v-flex>
   </v-layout>
 </template>
-
-<script>  
-import { setToken, checkSecret, extractInfoFromHash } from '~/utils/auth'
-
-  export default {
-    middleware: 'check-auth',
-    layout: 'product'
-  }
-</script>

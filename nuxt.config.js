@@ -2,9 +2,6 @@ module.exports = {
   /*
   ** Headers of the page
   */
-  router: {
-    middleware: 'check-auth'
-  },
   head: {
     title: 'starter',
     meta: [
@@ -25,10 +22,9 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: ['vuetify','vuex-persistedstate']
+    vendor: ['vuetify']
   },
-  // plugins: ['~plugins/vuetify.js','~plugins/vuex-persistedstate.js'],
-  plugins : ['~plugins/vuetify.js',{ src: '~plugins/vuex-persistedstate', ssr: false }],
+  plugins: ['~plugins/vuetify.js'],
   css: [
     { src: '~assets/style/app.styl', lang: 'styl' }
   ]
